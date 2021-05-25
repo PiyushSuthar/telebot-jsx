@@ -1,8 +1,9 @@
 import TelegramBot from 'node-telegram-bot-api'
 import { createContext, useContext } from 'react'
+import { Telegraf } from 'telegraf'
 
 type ContextType = {
-  client: TelegramBot
+  client: Telegraf
 }
 
 export const Context = createContext<ContextType | null>(null)
