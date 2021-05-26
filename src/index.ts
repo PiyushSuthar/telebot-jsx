@@ -5,3 +5,4 @@ export const start = (el: React.ReactNode) => render(el)
 export * from './bot'
 export * from './command'
 export * from './sendMessage'
+export * from './Event'
