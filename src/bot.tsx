@@ -1,4 +1,3 @@
-import TelegramBot from "node-telegram-bot-api";
 import * as React from "react";
 import { Provider } from "./context";
 import { Telegraf } from "telegraf";

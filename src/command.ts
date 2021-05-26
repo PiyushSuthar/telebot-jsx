@@ -1,4 +1,3 @@
-import TelegramBot from "node-telegram-bot-api";
 import React from "react";
 import { Context } from "telegraf";
 import { Update } from "typegram";

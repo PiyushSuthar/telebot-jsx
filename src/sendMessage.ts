@@ -1,4 +1,3 @@
-import TelegramBot from "node-telegram-bot-api";
 import React from "react";
 import { ExtraReplyMessage } from "telegraf/typings/telegram-types";
 import { useBotContext } from "./context";

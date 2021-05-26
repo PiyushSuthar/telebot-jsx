@@ -1,4 +1,3 @@
-import TelegramBot from 'node-telegram-bot-api'
 import { createContext, useContext } from 'react'
 import { Telegraf } from 'telegraf'
 
