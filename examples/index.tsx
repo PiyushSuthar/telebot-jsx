@@ -2,6 +2,7 @@ import { config } from "dotenv";
 config();
 import React from "react";
 import { Command, start, Bot } from "../src";
+import { Event } from "../src/Event";
 
 function Example() {
   return (
@@ -18,6 +19,12 @@ function Example() {
           ctx.reply("pong");
         }}
       </Command>
+      <Event
+        on="dice"
+        handle={(ctx) => {
+          ctx.reply("Bingo");
+        }}
+      />
     </Bot>
   );
 }
