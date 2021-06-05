@@ -4,7 +4,12 @@ Highly experimental way to create Telegram Bots in JSX syntax.
 
 ## Usage
 
-** Not Yet Published ** on NPM.
+```sh
+npm i telebot-jsx
+```
+BTW, It's a react app, so you'll need to compile it... I'll prefer using typescript... You may even use babel...
+
+> You may check `tsconfig.json` on this project for reference...
 
 For now,
 
